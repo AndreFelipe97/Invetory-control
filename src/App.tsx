@@ -7,8 +7,8 @@ function App() {
   return (
     <HashRouter>
       <GlobalStyle />
-      {/* <Layout /> */}
-      <SignIn />
+      <Layout />
+      {/* <SignIn /> */}
     </HashRouter>
   );
 }

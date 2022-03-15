@@ -23,9 +23,9 @@ export function Sidebar() {
         <ul className="nav nav-pills flex-column mb-auto">
           <li className="nav-item">
             <Link
-              to="/"
+              to="/lista-produto"
               className={`nav-link text-white ${
-                currentRoute === "/" ? "active" : ""
+                currentRoute === "/lista-produto" ? "active" : ""
               }`}
               aria-current="page"
             >
